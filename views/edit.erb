@@ -1,7 +1,10 @@
 <form action="/projects/<%= @project.id %>/edit" method="post">
-  <div class="form-group">
-    <label for="title">Please enter in the new title of the project</label>
-    <input type="text" name="title">
-    <button class="btn" type="submit">Update Project</button>
-  </div>
+  <label for="title">Please enter in the new title of the project</label>
+  <input type="text" name="title">
+  <button class="btn" type="submit">Update Project</button>
+</form>
+
+<form action="/projects/<%= @project.id %>/delete" method="post">
+  <input type="hidden" name="_method" value="delete">
+  <button type="submit" class="btn">Delete Project</button>
 </form>
