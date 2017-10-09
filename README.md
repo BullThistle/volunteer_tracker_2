@@ -8,6 +8,12 @@ Application: Ruby, Sinatra
 Testing: Rspec, Capybara
 Database: Postgres
 
+Description
+------------
+
+This is a web app which allows users to create, edit and delete volunteer projects. Users can then add volunteers to specific projects.
+
+
 Installation
 ------------
 
